@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <script src="script/lib.js" defer></script>
+    <script src="script/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header class="header">Simple Calculator</header>
+
+      <!-- main container start -->
+      <div class="container-m">
+        <!-- input container start -->
+        <div class="container-input">
+          <input type="text" id="numInput" />
+          <div class="container-buttons">
+            <button type="button" id="add-btn" class="btn">+</button>
+            <button type="button" id="sub-btn" class="btn">-</button>
+            <button type="button" id="mul-btn" class="btn">*</button>
+            <button type="button" id="div-btn" class="btn">/</button>
+          </div>
+        </div>
+        <!-- input container end -->
+
+        <!-- output container start -->
+        <div class="container-output">
+          <p>
+            Calculation Desc:
+            <span id="curCalc">0</span>
+          </p>
+          <p>
+            Output Result:
+            <span id="curResult">0</span>
+          </p>
+        </div>
+        <!-- output container end -->
+
+        <!-- main container end -->
+      </div>
+    </main>
+
+    <!-- pastikan untuk mengurut terlebih dahulu -->
+    
+  </body>
+</html>
